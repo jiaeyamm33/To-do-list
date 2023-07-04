@@ -23,7 +23,7 @@ function AddTodo({ onAdd, todos }) {
     <form onSubmit={handleSubmit} className={styles.form}>
       <input type="text" name='txt' 
       className={styles.input}
-      placeholder='Add your to-do-list' 
+      placeholder='Add your To-do-list' 
       value={txt}
       onChange={
       txtChange
